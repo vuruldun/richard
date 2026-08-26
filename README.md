@@ -1,8 +1,8 @@
 ﻿<div align="center">
 
-# BİZ
+# ＲＩＣＨＡＲＤ
 
-### Discord Developer • Bot Developer • Automation
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D0D0D&height=180&section=header&text=RICHARD&fontColor=ffffff&fontSize=70&animation=fadeIn">
 
 </div>
 
@@ -12,9 +12,7 @@
 
 > Discord-focused developer crafting private bots, automation systems and custom tools.
 >
-> I mainly build private Discord bots, server systems and experimental tools for custom communities.
->
-> My main focus is creating clean, reliable and efficient Discord experiences.
+> I develop Discord bots for private servers and custom communities.
 
 ---
 
@@ -27,7 +25,7 @@
 </a>
 
 <a href="https://discord.gg/biz">
-<img src="https://img.shields.io/badge/B%C4%B0Z-Discord%20Server-111111?style=for-the-badge&logo=discord&logoColor=white">
+<img src="https://img.shields.io/badge/BİZ-Discord%20Server-111111?style=for-the-badge&logo=discord&logoColor=white">
 </a>
 
 </p>
@@ -37,15 +35,15 @@
 ## LANGUAGES & TOOLS
 
 <p align="left">
+
 <img src="https://skillicons.dev/icons?i=javascript,nodejs">
+
 </p>
 
 ---
 
-## CURRENTLY WORKING ON
+<div align="center">
 
-`	ext
-Private Discord Bots
-Automation Systems
-Custom Discord Tools
-Server Ecosystems
+*building in silence.*
+
+</div>
