@@ -1,47 +1,31 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0D0D0D&height=220&section=header&text=RICHARD&fontSize=80&fontColor=FFFFFF&animation=fadeIn&fontAlignY=45">
-
-### Discord Developer
-
-*Private bots • Automation • Custom systems*
-
-</div>
+﻿<p align="center">
+  <img src="./banner.svg" width="100%" alt="RICHARD">
+</p>
 
 <br>
 
-<div align="center">
+<h2 align="center">ABOUT ME</h2>
 
-<table>
-<tr>
-<td>
-
-### ABOUT ME
-
-Discord-focused developer building **private Discord bots, automation systems and custom tools**.
-
-I develop Discord bots specifically for **private servers and custom communities**.
-
-</td>
-</tr>
-</table>
-
-</div>
+<p align="center">
+  Discord-focused developer crafting private bots, automation systems and custom tools.
+  <br><br>
+  I develop Discord bots for private servers and custom communities.
+</p>
 
 <br>
 
-<h2 align="center">SOCIALS</h2>
+<h2 align="center">SOCIAL MEDIA</h2>
 
 <p align="center">
 
 <a href="https://discord.com/channels/@me">
-<img src="https://img.shields.io/badge/DISCORD%20PROFILE-111111?style=for-the-badge&logo=discord&logoColor=ffffff">
+  <img src="https://img.shields.io/badge/DISCORD%20PROFILE-151515?style=for-the-badge&logo=discord&logoColor=ffffff">
 </a>
 
-&nbsp;
+&nbsp;&nbsp;
 
 <a href="https://discord.gg/biz">
-<img src="https://img.shields.io/badge/BİZ%20SERVER-111111?style=for-the-badge&logo=discord&logoColor=ffffff">
+  <img src="https://img.shields.io/badge/BİZ%20SERVER-151515?style=for-the-badge&logo=discord&logoColor=ffffff">
 </a>
 
 </p>
@@ -51,25 +35,11 @@ I develop Discord bots specifically for **private servers and custom communities
 <h2 align="center">LANGUAGES & TOOLS</h2>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=javascript,nodejs">
+  <img src="https://skillicons.dev/icons?i=javascript,nodejs" alt="JavaScript Node.js">
 </p>
 
 <br>
-
-<h2 align="center">GITHUB</h2>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vuruldun&show_icons=true&theme=dark&hide_border=true&bg_color=0D0D0D&title_color=FFFFFF&icon_color=FFFFFF&text_color=AAAAAA">
+  <i>building in silence.</i>
 </p>
-
-<br>
-
-<div align="center">
-
-`RICHARD`
-
-*building in silence.*
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0D0D0D&height=100&section=footer">
