@@ -4,41 +4,55 @@
 
 <br>
 
-<h2 align="center">ABOUT ME</h2>
+<h2 align="center">HAKKIMDA</h2>
 
 <p align="center">
-  Discord-focused developer crafting private bots, automation systems and custom tools.
-  <br><br>
-  I develop Discord bots for private servers and custom communities.
+─────────────────────────────────────────────
+</p>
+
+<p align="center">
+Discord odaklı geliştiriciyim; özel botlar, otomasyon sistemleri ve özel araçlar geliştiriyorum.
+<br><br>
+Özel sunucular ve özel topluluklar için Discord botları geliştiriyorum.
 </p>
 
 <br>
 
-<h2 align="center">SOCIAL MEDIA</h2>
+<h2 align="center">SOSYAL MEDYA</h2>
 
 <p align="center">
-
-<a href="https://discord.com/channels/@me">
-  <img src="https://img.shields.io/badge/DISCORD%20PROFILE-151515?style=for-the-badge&logo=discord&logoColor=ffffff">
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://discord.gg/biz">
-  <img src="https://img.shields.io/badge/BİZ%20SERVER-151515?style=for-the-badge&logo=discord&logoColor=ffffff">
-</a>
-
+─────────────────────────────────────────────
 </p>
 
-<br>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://discord.com/channels/@me">
+        <img src="https://img.shields.io/badge/DISCORD_PROFILE-17121A?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="Discord Profile">
+      </a>
+    </td>
+    <td width="35"></td>
+    <td align="center">
+      <a href="https://discord.gg/biz">
+        <img src="https://img.shields.io/badge/BİZ_SERVER-17121A?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="BİZ Server">
+      </a>
+    </td>
+  </tr>
+</table>
 
-<h2 align="center">LANGUAGES & TOOLS</h2>
+<br><br>
+
+<h2 align="center">DİLLER VE ARAÇLAR</h2>
+
+<p align="center">
+─────────────────────────────────────────────
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=javascript,nodejs" alt="JavaScript Node.js">
 </p>
 
-<br>
+<br><br>
 
 <p align="center">
   <i>building in silence.</i>
