@@ -1,107 +1,143 @@
-﻿<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="1600" height="345" viewBox="0 0 1600 345" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
+
+    <!-- Referanstaki koyu mor -> parlak mor -> koyu mor geçiş -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2b0635"/>
-      <stop offset="45%" stop-color="#7b148f"/>
-      <stop offset="100%" stop-color="#2a0636"/>
+      <stop offset="0%"   stop-color="#3b0a48"/>
+      <stop offset="38%"  stop-color="#7d1498"/>
+      <stop offset="52%"  stop-color="#a126bd"/>
+      <stop offset="72%"  stop-color="#681180"/>
+      <stop offset="100%" stop-color="#26052f"/>
     </linearGradient>
 
-    <radialGradient id="glow">
-      <stop offset="0%" stop-color="#ff8cff" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#ff8cff" stop-opacity="0"/>
+    <!-- Ortadaki parlaklık -->
+    <radialGradient id="glow" cx="50%" cy="42%" r="43%">
+      <stop offset="0%"   stop-color="#f18cff" stop-opacity="0.70"/>
+      <stop offset="38%"  stop-color="#d85bea" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#d85bea" stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="22"/>
+    <!-- Üstten hafif kararma -->
+    <linearGradient id="topShade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#16051d" stop-opacity="0.25"/>
+      <stop offset="45%" stop-color="#16051d" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#16051d" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <filter id="textGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5"
+                    flood-color="#000000" flood-opacity="0.40"/>
     </filter>
 
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="4" stdDeviation="8"
-                    flood-color="#000000" flood-opacity="0.45"/>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
     </filter>
+
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <!-- ANA ALAN -->
+  <rect x="10" y="10"
+        width="1580"
+        height="325"
+        rx="25"
+        fill="url(#bg)"/>
 
-  <!-- GLOW -->
-  <ellipse cx="600" cy="100" rx="280" ry="130"
+  <!-- MERKEZ IŞIK -->
+  <ellipse cx="800" cy="145"
+           rx="420"
+           ry="165"
            fill="url(#glow)"
-           filter="url(#blur)"/>
+           filter="url(#softGlow)"/>
 
-  <!-- SUBTLE GRID -->
-  <g opacity="0.08" stroke="#ffffff">
-    <line x1="0" y1="40" x2="1200" y2="40"/>
-    <line x1="0" y1="80" x2="1200" y2="80"/>
-    <line x1="0" y1="120" x2="1200" y2="120"/>
-    <line x1="0" y1="160" x2="1200" y2="160"/>
-    <line x1="0" y1="200" x2="1200" y2="200"/>
-    <line x1="0" y1="240" x2="1200" y2="240"/>
+  <!-- ÜST KARARTMA -->
+  <rect x="10" y="10"
+        width="1580"
+        height="325"
+        rx="25"
+        fill="url(#topShade)"/>
+
+  <!-- REFERANSTAKİ İNCE YATAY ÇİZGİLER -->
+  <g stroke="#ffffff" stroke-width="1.5" opacity="0.075">
+    <line x1="10" y1="58"  x2="1590" y2="58"/>
+    <line x1="10" y1="105" x2="1590" y2="105"/>
+    <line x1="10" y1="152" x2="1590" y2="152"/>
+    <line x1="10" y1="199" x2="1590" y2="199"/>
+    <line x1="10" y1="246" x2="1590" y2="246"/>
+    <line x1="10" y1="293" x2="1590" y2="293"/>
   </g>
 
-  <!-- LEFT DISCORD -->
-  <g filter="url(#shadow)">
-    <circle cx="48" cy="126" r="5" fill="#ffffff"/>
-    <text x="68" y="132"
-          fill="#ffffff"
-          font-family="Arial, Helvetica, sans-serif"
-          font-size="15"
-          font-weight="600">
-      discord.gg/biz
-    </text>
-  </g>
+  <!-- SOL URL -->
+  <circle cx="70" cy="166" r="5.5" fill="#ffffff"/>
 
-  <!-- CENTER -->
-  <text x="600" y="125"
+  <text x="92"
+        y="171"
+        fill="#ffffff"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17"
+        font-weight="700">
+    discord.gg/biz
+  </text>
+
+  <!-- SAĞ URL -->
+  <text x="1508"
+        y="171"
+        text-anchor="end"
+        fill="#ffffff"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="16"
+        font-weight="700">
+    discord.com/channels/@me
+  </text>
+
+  <circle cx="1531" cy="166" r="5.5" fill="#ffffff"/>
+
+  <!-- ANA BAŞLIK -->
+  <text x="800"
+        y="165"
         text-anchor="middle"
         fill="#ffffff"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="64"
+        font-size="74"
         font-weight="900"
-        letter-spacing="11"
-        filter="url(#shadow)">
+        letter-spacing="13"
+        filter="url(#textGlow)">
     RICHARD
   </text>
 
-  <text x="600" y="158"
+  <!-- ALT BAŞLIK -->
+  <text x="800"
+        y="202"
         text-anchor="middle"
-        fill="#e9c8ef"
+        fill="#efd9f4"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="12"
-        font-weight="600"
-        letter-spacing="4">
+        font-size="11"
+        font-weight="700"
+        letter-spacing="5">
     WELCOME TO MY PROFILE
   </text>
 
-  <!-- RIGHT DISCORD -->
-  <g filter="url(#shadow)">
-    <text x="1132" y="132"
-          text-anchor="end"
-          fill="#ffffff"
-          font-family="Arial, Helvetica, sans-serif"
-          font-size="14">
-      discord.com/channels/@me
-    </text>
-    <circle cx="1152" cy="126" r="5" fill="#ffffff"/>
+  <!-- SOL ALT DEKOR -->
+  <g stroke="#e3a0f0" stroke-width="2.5" opacity="0.62">
+    <line x1="62"  y1="277" x2="116" y2="223"/>
+    <line x1="83"  y1="284" x2="137" y2="230"/>
+    <line x1="104" y1="291" x2="158" y2="237"/>
   </g>
 
-  <!-- LEFT DECORATION -->
-  <g stroke="#dc8aed" stroke-width="2" opacity="0.55">
-    <line x1="48" y1="205" x2="98" y2="155"/>
-    <line x1="68" y1="210" x2="118" y2="160"/>
-    <line x1="88" y1="215" x2="138" y2="165"/>
+  <!-- SAĞ ALT DEKOR -->
+  <g stroke="#e3a0f0" stroke-width="2.5" opacity="0.62">
+    <line x1="1442" y1="291" x2="1496" y2="237"/>
+    <line x1="1463" y1="284" x2="1517" y2="230"/>
+    <line x1="1484" y1="277" x2="1538" y2="223"/>
   </g>
 
-  <!-- RIGHT DECORATION -->
-  <g stroke="#dc8aed" stroke-width="2" opacity="0.55">
-    <line x1="1062" y1="215" x2="1112" y2="165"/>
-    <line x1="1082" y1="210" x2="1132" y2="160"/>
-    <line x1="1102" y1="205" x2="1152" y2="155"/>
-  </g>
-
-  <!-- BOTTOM LINE -->
-  <line x1="260" y1="205" x2="940" y2="205"
-        stroke="#e8b6ef" stroke-width="1" opacity="0.25"/>
+  <!-- ALT ORTA ÇİZGİ -->
+  <line x1="390"
+        y1="267"
+        x2="1210"
+        y2="267"
+        stroke="#efc3f7"
+        stroke-width="1"
+        opacity="0.24"/>
 
 </svg>
