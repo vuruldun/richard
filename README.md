@@ -43,5 +43,5 @@
 <br><br>
 
 <p align="center">
-  <i>rezil olmadan vezir olunmaz.</i>
+  <i>dev.</i>
 </p>
