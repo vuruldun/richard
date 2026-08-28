@@ -2,17 +2,9 @@
   <img src="./banner.svg" width="100%" alt="RICHARD">
 </p>
 
-<br>
-
-<h2 align="center">HAKKIMDA</h2>
-
-<p align="center">
-─────────────────────────────────────────────
-</p>
 
 
 
-<br>
 
 <h2 align="center">SOSYAL MEDYA</h2>
 
