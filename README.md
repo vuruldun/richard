@@ -10,11 +10,7 @@
 ─────────────────────────────────────────────
 </p>
 
-<p align="center">
-Discord odaklı geliştiriciyim; özel botlar, otomasyon sistemleri ve özel araçlar geliştiriyorum.
-<br><br>
-Özel sunucular ve özel topluluklar için Discord botları geliştiriyorum.
-</p>
+
 
 <br>
 
@@ -55,5 +51,5 @@ Discord odaklı geliştiriciyim; özel botlar, otomasyon sistemleri ve özel ara
 <br><br>
 
 <p align="center">
-  <i>building in silence.</i>
+  <i>rezil olmadan vezir olunmaz.</i>
 </p>
